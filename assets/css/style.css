@@ -1,0 +1,35 @@
+.views-section {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.views-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.views-card h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.views-card p {
+    font-size: 20px;
+    color: #777;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.views-card h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+}
