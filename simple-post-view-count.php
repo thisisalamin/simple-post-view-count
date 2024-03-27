@@ -50,13 +50,8 @@ if ( ! class_exists( 'Simple_Post_View_Count' ) ) {
 			new Alamin\SimplePostViewCount\Admin\Column();
 			new Alamin\SimplePostViewCount\Shortcode\ViewCount();
 			new Alamin\SimplePostViewCount\Metabox\Metabox();
-
-			// Include the Assets and ViewCounter classes and instantiate them.
-			require_once plugin_dir_path( __FILE__ ) . 'views/Assets.php';
-			new Assets();
-
-			require_once plugin_dir_path( __FILE__ ) . 'views/ViewCounter.php';
-			new ViewCounter();
+			new Alamin\SimplePostViewCount\Views\ViewCounter();
+			new Alamin\SimplePostViewCount\Views\Assets();
 		}
 	}
 }

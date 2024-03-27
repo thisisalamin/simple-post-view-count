@@ -1,4 +1,6 @@
 <?php
+
+namespace Alamin\SimplePostViewCount\Views;
 /**
  * Class Assets
  *
@@ -18,7 +20,7 @@ class Assets {
 	 * Load CSS and JavaScript assets.
 	 */
 	public function load_scripts() {
-		$assets_dir = plugin_dir_url( __DIR__ );
+		$assets_dir = SPVC_URL;
 		if ( ! is_admin() ) {
 			wp_enqueue_style(
 				'spvc-style',
