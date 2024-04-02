@@ -25,7 +25,7 @@ class ViewCounter {
 	public function display_view_count( $atts ) {
 		$atts = shortcode_atts(
 			array(
-				'id' => 0,
+				'id' => get_the_ID(),
 			),
 			$atts
 		);

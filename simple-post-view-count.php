@@ -3,7 +3,7 @@
  * Plugin Name: Simple Post View Count
  * Plugin URI: https://github.com/thisisalamin/simple-post-view-count
  * Description: A simple plugin to count the views of a post and display it in the admin column, post content, and post metabox.
- * Version: 1.0
+ * Version: 1.0.1
  * Author: Mohamad Alamin
  * Author URI: https://www.linkedin.com/in/thisismdalamin/
  * License: GPL2

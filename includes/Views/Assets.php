@@ -1,6 +1,7 @@
 <?php
 
 namespace Alamin\SimplePostViewCount\Views;
+
 /**
  * Class Assets
  *
@@ -37,6 +38,7 @@ class Assets {
 				'1.0',
 				true
 			);
+
 		}
 	}
 }
